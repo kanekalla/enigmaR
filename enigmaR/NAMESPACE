@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+useDynLib(enigmaR, .registration = TRUE)
